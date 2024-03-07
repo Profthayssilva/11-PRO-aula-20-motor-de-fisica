@@ -17,8 +17,8 @@ function setup() {
   world = engine.world;
   
    var ball_options = {
-    restitution: 0.95,
-    frictionAir:0.01
+    restitution: 0.95, //elasticidade
+    frictionAir:0.01 //atrito do ar 
   }
 
   var rock_options = {
